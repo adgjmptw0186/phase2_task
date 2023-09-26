@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*全体*/
+cursor:default;
+
+.save-button {
+  background-color: #4CAF50; /* 緑色 */
+        color: #fff; /* 白色 */
+}
+
+.cancel-button {
+  background-color: #f44336; /* 赤色 */
+        color: #fff; /* 白色 */
+}
+
+
+.wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+    color: #230;
+}
+#header {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    margin: 1rem 0 0;
+}
+
+/*カレンダー*/
+#calendar {
+    text-align: center;
+    width: 100%;
+}
+table {
+    outline: 4px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    color: #aaa;
+}
+th, td {
+    outline: 1px solid #ddd;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+/*日曜日*/
+td:first-child {
+    color: red;
+}
+
+/*土曜日*/
+td:last-child {
+    color: blue;
+}
+/*前後月の日付*/
+td.disabled {
+    color: #ccc;
+}
+/*本日*/
+td.today {
+    background-color: #b0e0e6;
+    color: #fff;
+}
+
+/*ボタン*/
+#next-prev-button {
+    position: relative;
+}
+#next-prev-button button{
+    cursor: pointer;
+    background: #add8e6;
+    color: #eee;
+    border: 1px solid #000080;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem 0;
+}
+#next-prev-button button:hover{
+    background-color: #00bfff;
+    border-color: #000080;
+}
+#prev {
+    float: left;
+}
+#next {
+    float: right;
+}
+

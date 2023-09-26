@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------- 自由に設定してOK ----------*/
+
+th,td{
+	padding:5px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+ background-color: rgba(0, 100, 120, 0.3); //水色
+}
+
+.centering_parent {
+    padding: 20px;              /* 余白指定 */
+    text-align:  center;        /* 中央寄せ */
+    background-color:  #ddd;    /* 背景色指定 */
+    height: 100px;              /* 高さ指定 */
+}
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+h3 {
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+}
+
+
+
+

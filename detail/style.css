@@ -1,0 +1,27 @@
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+body{
+  background-color: #e0ffff; /* 背景色を淡い水色に設定 */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+}
+
+th {
+    background-color: #b0c4de;
+}
+
+h1{
+  text-align: center;
+  background-color: #c0c0c0;
+}
